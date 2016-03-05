@@ -33,12 +33,7 @@
             
             <!-- Side navigation -->
             <div class="l-nav l-col l-scroll-y">
-                <?php echo $this->navigation('navigation')->menu()
-                                                          ->setMinDepth(0)
-                                                          ->setMaxDepth(0)
-                                                          ->setUlClass('side-nav')
-                                                          ->escapeLabels(false);
-                ?>  
+                
             </div>
             
             <!-- content -->
@@ -46,9 +41,7 @@
                 
                 <div class="l-row">
                     <div class="breadcrumb">
-                        <?php echo $this->navigation('navigation')->breadcrumbs()
-                                                                  ->setMinDepth(0)
-                                                                  ->setPartial('cobalt/partial/breadcrumbs')?>
+                        
                     </div>
                 </div>
                 <div class="l-row l-pane l-scroll-y">

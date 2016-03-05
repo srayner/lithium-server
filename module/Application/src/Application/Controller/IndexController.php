@@ -2,7 +2,7 @@
 
 namespace Application\Controller;
 
-use Zend\MVC\Controller\AbstractActionController;
+use Zend\Mvc\Controller\AbstractActionController;
 
 class IndexController extends AbstractActionController
 {
