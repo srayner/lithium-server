@@ -1,0 +1,22 @@
+{
+    "name": "srayner/lithium-server",
+    "description": "Backend server for Lithium application.",
+    "license": "MIT",
+    "keywords": [
+        "production",
+        "manufacturing",
+        "data-capture",
+        "wip"
+    ],
+    "homepage": "http://github/srayner/lithium-server/",
+    "require": {
+        "php": ">=5.6",
+        "zendframework/zendframework": "2.5.0",
+        "zf-commons/zfc-base": "0.1.2",
+        "zf-commons/zfc-user": "dev-master",
+        "zendframework/zend-developer-tools": "dev-master",
+        "neilime/zf2-twb-bundle": "^2.6"
+    },
+    "require-dev": {
+    }
+}
